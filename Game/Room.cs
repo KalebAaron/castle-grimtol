@@ -11,5 +11,12 @@ namespace CastleGrimtol.Game
         {
             
         }
+        public Dictionary<string, Room> Exits { get; set; }
+
+        public Room(string name, string description)
+        {
+            Name = name;
+            Description = description;
+        }
     }
 }
